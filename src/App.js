@@ -1,26 +1,21 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import render from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Home from "./pages/home";
+import Movies from "./pages/movies";
+import TvShows from "./pages/tvshows";
 
-const rootElement = document.getElementById("root");
-    ReactDOM.render(
-      <BrowserRouter>
+const App = () => (
+  <BrowserRouter>
        <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/home" component={Home} />
+        <Route path="/movies" component={Movies} />
+        <Route path="/tvshows" component={TvShows} />
       </Switch>
-      </BrowserRouter>,
-      rootElement
-    );
-
-function App() {
-  return(
-    <>
-    <Home/>
-    </>
-  )
-}
+      </BrowserRouter>
+);
 
 export default App;
+
+

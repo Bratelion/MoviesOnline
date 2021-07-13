@@ -1,14 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom"
+import NavBar from "../components/navBar";
+
 import SearchBar from "../components/searchBar"
 
 const MainPage = (props) => {
 	return(
 		<>
 		<SearchBar/>
-		<Link to="/home">
-			<button>Click me!</button>
-		</Link>
+		<NavBar />
 		{props.children}
 		</>
 	)
