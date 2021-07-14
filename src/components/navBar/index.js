@@ -6,7 +6,7 @@ const NavBar = (props) => {
 	return(
 		<header className={styles.main}>
 			<p className={styles.title}>Movies 
-				<span className={styles.specialText}> Online</span>
+				<span className={styles.specialText}>Online</span>
 			</p>
 			<nav className={styles.links}>
 				<Link className={props.selected === "/" ? styles.selected : ""} to="/">Home</Link>

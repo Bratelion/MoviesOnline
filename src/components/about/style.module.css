@@ -1,4 +1,6 @@
-.main {
+.main{
+	margin-top: 1em;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	height: 100px;
 }

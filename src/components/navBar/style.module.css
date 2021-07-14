@@ -5,10 +5,11 @@
 	align-items: center;
 	white-space: nowrap;
 	text-transform: uppercase;
+	margin-bottom: 2em;
 }
 
 .links {
-	height: 52px;
+	height: 3.5em;
 	display: flex;
 	align-items: center;
 	width: auto;
@@ -30,7 +31,16 @@
 }
 
 .title {
-	padding-left: 10px;
+	display: flex;
+	padding: 10px;
+	font-size: 2em;
+	margin: 0;
+}
+.specialText {
+	color: black;
+	background-color: yellow;
+	font-size: .5em;
+	height: 1em;
 }
 
 .selected {

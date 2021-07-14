@@ -6,8 +6,11 @@ const BigItem = (props) => {
 	return(
 		<article className={styles.itemCard}>
 			<img className={styles.image} src={PHImage}/>
-			<span>Naslov Filma</span>
-			<span>Description filma...</span>
+			<section className={styles.text}>
+				<span className={styles.title}>Naslov Filma</span>
+				<span className={styles.description}>Description filma...</span>
+				</section>
+			
 		</article>
 	)
 }
