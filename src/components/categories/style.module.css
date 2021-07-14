@@ -16,6 +16,8 @@
 	cursor: pointer;
 }
 .listItem:hover {
-	background-color: #727272;
+	background-color: yellow;
+	color: black;
+	font-weight: bolder;
 	transition: background-color ease-in-out .15s;
 }
