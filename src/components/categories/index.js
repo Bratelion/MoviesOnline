@@ -1,9 +1,11 @@
 import React from "react";
 import { categories } from "../../constants/categories";
+import About from "../about";
 import styles from "./style.module.css"
 
 const Categories = () => {
 	return(
+		<article>
 		<section className={styles.main}>
 			{categories.map(({name}, index) => {
 				return (
@@ -11,6 +13,8 @@ const Categories = () => {
 				)
 			})}
 		</section>
+		<About />
+		</article>
 	)
 }
 
