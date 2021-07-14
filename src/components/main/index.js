@@ -1,5 +1,6 @@
 import React from "react";
 import Categories from "../categories";
+import Featured from "../featured";
 import Recommendation from "../recommendation";
 import styles from "./style.module.css"
 
@@ -9,6 +10,7 @@ const Main = () => {
 			<Categories />
 			<section className={styles.right}>
 				<Recommendation />
+				<Featured />
 			</section>
 		</div>
 	)

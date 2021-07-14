@@ -9,6 +9,12 @@
 	height: 24px;
 	margin-left: -20px;
 	width: 16px;
-	color: black;
+	color: yellow;
 	cursor: pointer;
+}
+
+input {
+	background-color: #353535;
+	border: 1px solid #101010;
+	color: white;
 }

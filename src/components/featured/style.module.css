@@ -1,3 +1,11 @@
 .main {
-	
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 15px;
+}
+
+.title {
+	padding: 10px;
+	background-color: #353535;
+	text-transform: uppercase;
 }
