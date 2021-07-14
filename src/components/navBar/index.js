@@ -9,9 +9,9 @@ const NavBar = () => {
 				<span className={styles.specialText}> Online</span>
 			</p>
 			<nav className={styles.links}>
-				<Link to="/"><a>Home</a></Link>
-				<Link to="/movies"><a>Movies</a></Link>
-				<Link to="/tvshows"><a>TV Shows</a></Link>
+				<Link to="/">Home</Link>
+				<Link to="/movies">Movies</Link>
+				<Link to="/tvshows">TV Shows</Link>
 			</nav>
 		</div>
 	)

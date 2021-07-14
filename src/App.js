@@ -1,6 +1,6 @@
 import React from "react";
-import render from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import "./App.css"
 
 import Home from "./pages/home";
 import Movies from "./pages/movies";

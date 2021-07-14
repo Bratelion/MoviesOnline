@@ -1,4 +1,23 @@
 .main {
+	background-color: burlywood;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-items: center;
+	white-space: nowrap;
+}
+
+.links {
+	height: 52px;
+	display: flex;
+	align-items: center;
+	width: auto;
+}
+.links > * {
+	text-decoration: none;
+	color: black;
+	padding: 0 10px 0 10px;
+}
+
+.title {
+	padding-left: 10px;
 }
