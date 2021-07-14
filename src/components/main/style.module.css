@@ -5,15 +5,3 @@
 	max-width: 100%;
 	grid-gap: 1em;
 }
-
-.left {
-	background-color: pink;
-	height: 100%;
-	width: auto;
-}
-
-.right {
-	background-color: cyan;
-	height: 100%;
-	width: auto;
-}
