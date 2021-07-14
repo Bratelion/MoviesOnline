@@ -4,6 +4,7 @@
 	display: flex;
 	justify-content: right;
 	margin-right: 4px;
+	margin-bottom: .5em;
 }
 .icon {
 	height: 24px;
@@ -17,4 +18,6 @@ input {
 	background-color: #353535;
 	border: 1px solid #101010;
 	color: white;
+	width: 30%;
+	height: 2em;
 }

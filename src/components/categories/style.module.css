@@ -1,4 +1,8 @@
-.main{
+.main {
+	display: block;
+}
+
+.categories{
 	display: flex;
 	flex-direction: column;
 }

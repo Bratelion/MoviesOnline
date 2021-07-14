@@ -12,8 +12,10 @@ const MainPage = (props) => {
 	}, [selected]);
 	return(
 		<>
-		<SearchBar/>
-		<NavBar selected={selected}/>
+		<header>
+			<SearchBar/>
+			<NavBar selected={selected}/>
+		</header>
 		{props.children}
 		</>
 	)

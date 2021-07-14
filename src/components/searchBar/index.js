@@ -4,10 +4,10 @@ import styles from "./style.module.css"
 
 const SearchBar = () => {
 	return(
-		<div className={styles.main}>
+		<section className={styles.main}>
 			<input className={styles.input} name="query" type="text"/>
 			<GoSearch className={styles.icon}/>
-		</div>
+		</section>
 	)
 }
 

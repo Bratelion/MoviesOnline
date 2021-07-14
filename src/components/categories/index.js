@@ -5,15 +5,15 @@ import styles from "./style.module.css"
 
 const Categories = () => {
 	return(
-		<article>
-		<section className={styles.main}>
-			{categories.map(({name}, index) => {
-				return (
-					<a className={styles.listItem} key={index}>{name}</a>
-				)
-			})}
-		</section>
-		<About />
+		<article className={styles.main}>
+			<section className={styles.categories}>
+				{categories.map(({name}, index) => {
+					return (
+						<a className={styles.listItem} key={index}>{name}</a>
+					)
+				})}
+			</section>
+			<About />
 		</article>
 	)
 }
