@@ -41,3 +41,8 @@ body {
   margin: 0 2em 0 2em;
   max-width: 1000px;
 }
+
+body {
+  background-color: #101010;
+  color: white;
+}

@@ -1,0 +1,17 @@
+.main{
+	display: flex;
+	flex-direction: column;
+}
+
+.listItem{
+	padding: 10px;
+	text-transform: uppercase;
+	border: 1px solid black;
+	background-color: #525252;
+	transition: background-color ease-in-out .15s;
+	cursor: pointer;
+}
+.listItem:hover {
+	background-color: #727272;
+	transition: background-color ease-in-out .15s;
+}

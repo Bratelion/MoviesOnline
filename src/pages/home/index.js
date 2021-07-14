@@ -4,7 +4,7 @@ import MainPage from "../../templates/mainpage";
 
 const Home = (props) => {
 	return(
-		<MainPage props={props}>
+		<MainPage props={props} selected={props.location.pathname}>
 			<p>OVO JE HOME PAGE</p>
 			<Main />
 		</MainPage>

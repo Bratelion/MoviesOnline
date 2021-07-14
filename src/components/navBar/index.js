@@ -2,18 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./style.module.css"
 
-const NavBar = () => {
+const NavBar = (props) => {
 	return(
-		<div className={styles.main}>
+		<header className={styles.main}>
 			<p className={styles.title}>Movies 
 				<span className={styles.specialText}> Online</span>
 			</p>
 			<nav className={styles.links}>
-				<Link to="/">Home</Link>
-				<Link to="/movies">Movies</Link>
-				<Link to="/tvshows">TV Shows</Link>
+				<Link className={props.selected === "/" ? styles.selected : ""} to="/">Home</Link>
+				<Link className={props.selected === "/movies" ? styles.selected : ""} to="/movies">Movies</Link>
+				<Link className={props.selected === "/tvshows" ? styles.selected : ""} to="/tvshows">TV Shows</Link>
 			</nav>
-		</div>
+		</header>
 	)
 }
 
